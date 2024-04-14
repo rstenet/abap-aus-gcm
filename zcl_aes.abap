@@ -917,7 +917,6 @@ CLASS ZCL_AES IMPLEMENTATION.
         , len_ac  TYPE XSTRING
         , lenX(8) TYPE X
         , tmp     TYPE XSTRING VALUE '00000000000000000000000000000000'.
-        .
 
     CLEAR ghash.
 
