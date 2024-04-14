@@ -148,7 +148,6 @@ CLASS ZCL_AES IMPLEMENTATION.
         , offset     TYPE I
         , l_iv       TYPE XSTRING
         , emptyiv    TYPE XSTRING value '00000000000000000000000000000000'
-        , counter(4) TYPE X
         .
 
     CLEAR result.
@@ -244,7 +243,6 @@ CLASS ZCL_AES IMPLEMENTATION.
         , offset     TYPE I
         , l_iv       TYPE XSTRING
         , emptyiv    TYPE XSTRING value '00000000000000000000000000000000'
-        , counter(4) TYPE X
         .
 
     CLEAR plain.
@@ -917,7 +915,6 @@ CLASS ZCL_AES IMPLEMENTATION.
         , len_ac  TYPE XSTRING
         , lenX(8) TYPE X
         , tmp     TYPE XSTRING VALUE '00000000000000000000000000000000'.
-        .
 
     CLEAR ghash.
 
